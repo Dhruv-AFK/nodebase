@@ -1,9 +1,11 @@
-import { cn } from "@/lib/utils";
-
+//import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 const page = () => {
   return ( 
-    <div className = {cn("text-blue-500 font-extrabold")}>
-      <h1>Welcome to the Home Page</h1>
+    <div className="min-h-screen min-w-screen flex item-center justify-center" >
+      <Button variant="outline">
+        Daba do 
+      </Button>
     </div>
   );
 };
